@@ -1,0 +1,1 @@
+__init__ function is called from the inside of the class, what it does is create an instance of a class. It creates space in memory for the object.
