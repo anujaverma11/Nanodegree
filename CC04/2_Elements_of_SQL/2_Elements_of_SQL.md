@@ -27,5 +27,11 @@ select species, count(species) a from animals group by species order by a desc;
 - Having is a restriction on the result ... after aggregation.
 
 ```
-
+select food, count(*) as num
+    from animals join diet
+    on animals.species = diet.species
+    group by food
+    having num = 1;
 ```
+## Redo
+More Join Practice
