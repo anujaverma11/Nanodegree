@@ -3,6 +3,8 @@
 
 import psycopg2, bleach
 
+# Bleach
+
 DBNAME = "forum"
 
 def get_posts():
